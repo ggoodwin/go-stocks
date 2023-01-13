@@ -1,4 +1,4 @@
-package stocks
+package main
 
 import (
 	"encoding/json"
