@@ -1,8 +1,6 @@
-package main
+package stocks
 
-import (
-	"time"
-)
+import "time"
 
 /** GetESTTime
  * * Gets EST time based on EST or EDT time for stock market
