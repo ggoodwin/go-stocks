@@ -1,5 +1,7 @@
 # Go Stocks Library
 
+[![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/stocks)](https://goreportcard.com/report/github.com/octolibs/stocks)
+
 ## How it works
 
 We use the `Yahoo` stock API.
