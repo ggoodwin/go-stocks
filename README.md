@@ -3,7 +3,6 @@
 		Go Stocks Library
 	</h1>
 
-
 [![Go Version](https://img.shields.io/github/go-mod/go-version/octolibs/stocks)](https://go.dev/) [![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/stocks)](https://goreportcard.com/report/github.com/octolibs/stocks) [![CodeFactor](https://www.codefactor.io/repository/github/octolibs/stocks/badge)](https://www.codefactor.io/repository/github/octolibs/stocks) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/octolibs/stocks/.github/workflows/go.yml)](https://github.com/octolibs/stocks/blob/main/.github/workflows/go.yml) ![Size](https://img.shields.io/github/languages/code-size/octolibs/stocks) [![Last Commit](https://img.shields.io/github/last-commit/octolibs/stocks)](https://github.com/octolibs/stocks/commits/main) [![License](https://img.shields.io/github/license/octolibs/stocks)](https://github.com/octolibs/stocks/blob/main/LICENSE)
 
 </div>
@@ -36,6 +35,13 @@ import "github.com/octolibs/stocks"
 price, percent := stocks.GetPriceAndPercentage("AAPL")
 ```
 
+#### Is the Stock Market Open?
+
+```go
+//Returns `bool`
+isOpen := stocks.IsMarketOpen()
+```
+
 ## 🙇‍♂️ Issues and Contributing
 
 If you find an issue with this library, please report an issue. If you'd
@@ -45,3 +51,7 @@ request.
 ## ⚖️ License
 
 This project is under the MIT License. See the [LICENSE](https://github.com/octolibs/stocks/blob/main/LICENSE) file for the full license text.
+
+## 📜 Changes
+
+Check out our [CHANGELOG](https://github.com/octolibs/stocks/blob/main/CHANGELOG.md)
