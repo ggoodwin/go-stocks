@@ -1,6 +1,10 @@
 # Go Stocks Library
 
-[![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/stocks)](https://goreportcard.com/report/github.com/octolibs/stocks)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/octolibs/stocks)](https://go.dev/) [![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/stocks)](https://goreportcard.com/report/github.com/octolibs/stocks) [![CodeFactor](https://www.codefactor.io/repository/github/octolibs/stocks/badge)](https://www.codefactor.io/repository/github/octolibs/stocks) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/octolibs/stocks/.github/workflows/go.yml)](https://github.com/octolibs/stocks/blob/main/.github/workflows/go.yml) ![Size](https://img.shields.io/github/languages/code-size/octolibs/stocks) [![Last Commit](https://img.shields.io/github/last-commit/octolibs/stocks)](https://github.com/octolibs/stocks/commits/main) [![License](https://img.shields.io/github/license/octolibs/stocks)](https://github.com/octolibs/stocks/blob/main/LICENSE)
+
+## OctoLibs
+
+![octolibs-brand](https://avatars.githubusercontent.com/u/122575388?s=400&u=6803206c4e7618aa7c24a7dab7384947d5d0b29c&v=4)
 
 ## How it works
 

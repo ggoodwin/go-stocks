@@ -1,9 +1,20 @@
-# 1.0.1 (January 12, 2023)
+# Changelog
 
-FEATURES:
+All notable changes to Stocks are documented in this file.
 
-- Renames and Restructured
+## 0.1.0 (January 12, 2023)
 
-## 1.0.0 (January 12, 2023)
+### Initial release
 
-Initial release.
+### Added
+
+- Added `GetPriceAndPercentage` function.
+
+### Changed
+
+- Changed `README.md` to `CHANGELOG.md`.
+- Changed folder structure.
+
+### Removed
+
+- Unnecessary files.
