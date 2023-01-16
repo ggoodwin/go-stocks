@@ -8,13 +8,25 @@
 </div>
 <hr/>
 
-## How it works
+## 🌟 How it works
 
-We use the `Yahoo` stock API.
+We use the [`Yahoo`](https://finance.yahoo.com/most-active) API to gather real time stock data.
 
-## Installation and Usage
+## 📦 Installation and Usage
 
-### 📦 Installing
+### Go
+
+Make sure you have `Go` installed on your machine.
+
+You can check by running the following command in the `console`
+
+```plain
+go version
+```
+
+If you don't have `Go` installed, you can download it from [here](https://go.dev/dl/).
+
+### Add to your project
 
 Run the following command in the `console`, in the `project directory`, to install the library with `go get`
 
@@ -22,25 +34,37 @@ Run the following command in the `console`, in the `project directory`, to insta
 go get github.com/octolibs/stocks
 ```
 
-### 💻 Importing
+### Importing
+
+Add the import to your `.go` file
 
 ```go
 import "github.com/octolibs/stocks"
 ```
 
-#### Stock Price and Percentage Change
+## 💰 Usage
+
+### Stock Price and Percentage Change
+
+Add this to your `.go` file
 
 ```go
 //Returns strings
 price, percent, direction := stocks.GetPriceAndPercentage("AAPL")
 ```
 
-#### Is the Stock Market Open?
+### Is the Stock Market Open?
+
+Add this to your `.go` file
 
 ```go
 //Returns `bool`
 isOpen := stocks.IsMarketOpen()
 ```
+
+## 💻 Dependencies
+
+- [`Go`](https://go.dev/)
 
 ## 🙇‍♂️ Issues and Contributing
 

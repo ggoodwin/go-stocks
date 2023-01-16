@@ -6,26 +6,9 @@ import "time"
  * * Gets EST time based on EST or EDT time for stock market
  */
 func GetESTTime() time.Time {
-	//Set the location for EST
-	loc, _ := time.LoadLocation("EST")
-
-	//Get current time in EST
-	estTime := time.Now().In(loc)
-	//fmt.Println("EST Time:", estTime)
-
-	//Check if DST is in effect
-	_, offset := estTime.Zone()
-	if offset == -4*60*60 {
-		//DST is in effect, subtract 4 hours
-		estTime = estTime.Add(-4 * time.Hour)
-	} else {
-		//DST is not in effect, subtract 5 hours
-		estTime = estTime.Add(-5 * time.Hour)
-	}
-
-	//Convert EST time to UTC
-	//utcTime := estTime.UTC()
-	return estTime
+	loc, _ := time.LoadLocation("America/New_York")
+	now := time.Now().In(loc)
+	return now
 }
 
 func IsMarketOpen() bool {

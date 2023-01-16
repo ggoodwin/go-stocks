@@ -2,41 +2,33 @@
 
 All notable changes to Stocks are documented in this file.
 
-## 0.1.3 (January 16, 2023)
+The format is based on [Keep a Changelog],
+and this project adheres to [Semantic Versioning].
+
+## [Unreleased]
+
+- Will list future updates here
+
+## [0.0.1] - 2023-01-16
 
 ### Added
-
-- Added additional fields to the `GetPriceAndPercentage` function.
-
-## 0.1.2 (January 13, 2023)
-
-### Added
-
-- Added `Holidays` and `Early Close Days` to the `IsMarketOpen` function up to 2025
 
 ### Changed
 
-- Changed `README.md` to `CHANGELOG.md`.
+- Changed the way EST time was being determined
 
-## 0.1.1 (January 12, 2023)
-
-### Added
-
-- Added `IsMarketOpen` function.
-
-## 0.1.0 (January 12, 2023)
-
-### Initial release
-
-### Added
-
-- Added `GetPriceAndPercentage` function.
-
-### Changed
-
-- Changed `README.md` to `CHANGELOG.md`.
-- Changed folder structure.
+### Deprecated
 
 ### Removed
 
-- Unnecessary files.
+### Fixed
+
+### Security
+
+<!-- Links -->
+[keep a changelog]: https://keepachangelog.com/en/1.0.0/
+[semantic versioning]: https://semver.org/spec/v2.0.0.html
+
+<!-- Versions -->
+[unreleased]: https://github.com/octolibs/stocks/compare/v0.0.1...MAIN
+[0.0.1]: https://github.com/octolibs/stocks/releases/tag/v0.0.1
