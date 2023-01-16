@@ -41,8 +41,12 @@ func IsMarketOpen() bool {
 	}
 
 	// Check Early Close Days
-	if IsEarlyClose() && currentTime.After(openTime) && currentTime.Before(earlyClose) && dayOfWeek != time.Saturday && dayOfWeek != time.Sunday {
-		return true
+	if IsEarlyClose() {
+		if currentTime.After(openTime) && currentTime.Before(earlyClose) && dayOfWeek != time.Saturday && dayOfWeek != time.Sunday {
+			return true
+		} else {
+			return false
+		}
 	}
 
 	// Check Regular Market Hours
