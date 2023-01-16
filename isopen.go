@@ -35,14 +35,14 @@ func IsMarketOpen() bool {
 	earlyClose := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 13, 00, 0, 0, time.UTC)
 	dayOfWeek := currentTime.Weekday()
 
-	// Check Early Close Days
-	if IsEarlyClose() && currentTime.After(openTime) && currentTime.Before(earlyClose) && dayOfWeek != time.Saturday && dayOfWeek != time.Sunday && !IsHoliday() {
-		return true
-	}
-
 	// Check Holidays
 	if IsHoliday() {
 		return false
+	}
+
+	// Check Early Close Days
+	if IsEarlyClose() && currentTime.After(openTime) && currentTime.Before(earlyClose) && dayOfWeek != time.Saturday && dayOfWeek != time.Sunday {
+		return true
 	}
 
 	// Check Regular Market Hours
