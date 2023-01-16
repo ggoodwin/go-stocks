@@ -19,12 +19,12 @@ func IsMarketOpen() bool {
 	dayOfWeek := currentTime.Weekday()
 
 	// Check Holidays
-	if IsHoliday() {
+	if IsHoliday() == true {
 		return false
 	}
 
 	// Check Early Close Days
-	if IsEarlyClose() {
+	if IsEarlyClose() == true {
 		if currentTime.After(openTime) && currentTime.Before(earlyClose) && dayOfWeek != time.Saturday && dayOfWeek != time.Sunday {
 			return true
 		} else {
