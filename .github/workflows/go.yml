@@ -21,6 +21,12 @@ jobs:
       with:
         go-version: 1.19
 
+    - name: Code Checks
+      run: go vet ./..
+
+    - name: Static Checks
+      run: staticcheck ./..
+
     - name: Build
       run: go build plugin
 
