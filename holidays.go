@@ -1,9 +1,11 @@
 package stocks
 
-import "time"
+import (
+	"time"
+)
 
 func IsEarlyClose() bool {
-	currentDate := time.Now()
+	currentDate := GetESTTime()
 
 	/**
 	 * * Same Day Holidays
@@ -39,7 +41,7 @@ func IsEarlyClose() bool {
 }
 
 func IsHoliday() bool {
-	currentDate := time.Now()
+	currentDate := GetESTTime()
 
 	/**
 	 * * Same Day Holidays

@@ -31,8 +31,8 @@ import "github.com/octolibs/stocks"
 #### Stock Price and Percentage Change
 
 ```go
-//Returns `float64` numbers
-price, percent := stocks.GetPriceAndPercentage("AAPL")
+//Returns strings
+price, percent, direction := stocks.GetPriceAndPercentage("AAPL")
 ```
 
 #### Is the Stock Market Open?

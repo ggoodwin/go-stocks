@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"strconv"
 )
 
 const (
@@ -105,10 +106,23 @@ func GetDetails(ticker string) *Result {
 /** GetPriceAndPercentage
 * * retrieves the current trading price of a ticker from Yahoo
  */
-func GetPriceAndPercentage(ticker string) (float64, float64) {
+func GetPriceAndPercentage(ticker string) (string, string, string) {
 	det := GetDetails(ticker)
 	if det == nil {
-		return -1, -1
+		return "", "", ""
 	}
-	return det.RegularMarketPrice, det.RegularMarketChangePercent
+
+	trimmedPrice := strconv.FormatFloat(det.RegularMarketPrice, 'f', 2, 64)
+	trimmedPercent := strconv.FormatFloat(det.RegularMarketChangePercent, 'f', 2, 64)
+
+	var direction string = ""
+	if det.RegularMarketChangePercent < 0 {
+		//We are down
+		direction = " ↓"
+	} else {
+		//We are up
+		direction = " ↑"
+	}
+
+	return trimmedPrice, trimmedPercent, direction
 }

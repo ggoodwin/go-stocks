@@ -2,6 +2,12 @@
 
 All notable changes to Stocks are documented in this file.
 
+## 0.1.3 (January 16, 2023)
+
+### Added
+
+- Added additional fields to the `GetPriceAndPercentage` function.
+
 ## 0.1.2 (January 13, 2023)
 
 ### Added
