@@ -49,8 +49,36 @@ import "github.com/octolibs/stocks"
 Add this to your `.go` file
 
 ```go
-//Returns strings
+//Returns strings ex: `$123.45`, `1.23%`, `↑`
 price, percent, direction := stocks.GetPriceAndPercentage("AAPL")
+```
+
+### Get full stock details
+
+```go
+//Returns `Result` struct
+stock := stocks.GetFullDetails("AAPL")
+```
+
+### Is Market Open?
+
+```go
+//Returns `bool`
+isOpen := stocks.IsMarketOpen()
+```
+
+### Is Holiday?
+
+```go
+//Returns `bool`
+isHoliday := stocks.IsHoliday()
+```
+
+### Is Early Close?
+
+```go
+//Returns `bool`
+isEarlyClose := stocks.IsEarlyClose()
 ```
 
 ### Is the Stock Market Open?
@@ -60,6 +88,13 @@ Add this to your `.go` file
 ```go
 //Returns `bool`
 isOpen := stocks.IsMarketOpen()
+```
+
+### Get EST Time
+
+```go
+//Returns `time.Time`
+estTime := stocks.GetESTTime()
 ```
 
 ## 💻 Dependencies

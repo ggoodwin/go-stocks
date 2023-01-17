@@ -85,7 +85,7 @@ type QuoteResponse struct {
 /** GetDetails
  * * returns the base summary of a ticker from Yahoo Finance API
  */
-func GetDetails(ticker string) *Result {
+func GetFullDetails(ticker string) *Result {
 	res, err := http.Get(fmt.Sprintf(YahooURL, ticker))
 	if err != nil {
 		println(err)
@@ -107,22 +107,23 @@ func GetDetails(ticker string) *Result {
 * * retrieves the current trading price of a ticker from Yahoo
  */
 func GetPriceAndPercentage(ticker string) (string, string, string) {
-	det := GetDetails(ticker)
+	det := GetFullDetails(ticker)
 	if det == nil {
 		return "", "", ""
 	}
 
 	trimmedPrice := strconv.FormatFloat(det.RegularMarketPrice, 'f', 2, 64)
 	trimmedPercent := strconv.FormatFloat(det.RegularMarketChangePercent, 'f', 2, 64)
+	trimmedPercent = trimmedPercent[1:]
 
 	var direction string = ""
 	if det.RegularMarketChangePercent < 0 {
 		//We are down
-		direction = " ↓"
+		direction = "↓"
 	} else {
 		//We are up
-		direction = " ↑"
+		direction = "↑"
 	}
 
-	return trimmedPrice, trimmedPercent, direction
+	return "$" + trimmedPrice, trimmedPercent + "%", direction
 }

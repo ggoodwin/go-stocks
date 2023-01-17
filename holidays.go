@@ -4,6 +4,9 @@ import (
 	"time"
 )
 
+/** IsEarlyClose
+ * * Checks if the market is closing early
+ */
 func IsEarlyClose() bool {
 	currentDate := GetESTTime()
 
@@ -40,6 +43,9 @@ func IsEarlyClose() bool {
 	return false
 }
 
+/** IsHoliday
+ * * Checks if it is a market holiday
+ */
 func IsHoliday() bool {
 	currentDate := GetESTTime()
 

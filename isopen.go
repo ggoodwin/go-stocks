@@ -11,6 +11,9 @@ func GetESTTime() time.Time {
 	return now
 }
 
+/** IsMarketOpen
+ * * Checks if the market is open
+ */
 func IsMarketOpen() bool {
 	currentTime := GetESTTime()
 	openTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 9, 30, 0, 0, time.UTC)
