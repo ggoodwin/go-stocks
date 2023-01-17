@@ -114,7 +114,7 @@ func GetPriceAndPercentage(ticker string) (string, string, string) {
 
 	trimmedPrice := strconv.FormatFloat(det.RegularMarketPrice, 'f', 2, 64)
 	trimmedPercent := strconv.FormatFloat(det.RegularMarketChangePercent, 'f', 2, 64)
-	trimmedPercent = trimmedPercent[1:]
+	//trimmedPercent = trimmedPercent[1:]
 
 	var direction string = ""
 	if det.RegularMarketChangePercent < 0 {

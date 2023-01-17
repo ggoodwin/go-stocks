@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning].
 
 - Will list future updates here
 
+## [0.0.4] - 2023-01-17
+
+### Added
+
+### Changed
+
+- Changed how PriceAndPercentage() works
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
 ## [0.0.3] - 2023-01-17
 
 ### Added
