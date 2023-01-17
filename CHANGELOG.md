@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning].
 ### Changed
 
 - Changed how PriceAndPercentage() works
+- Changed timezones to UTC
 
 ### Deprecated
 

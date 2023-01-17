@@ -5,21 +5,20 @@ import "time"
 /** GetESTTime
  * * Gets EST time based on EST or EDT time for stock market
  */
-func GetESTTime() time.Time {
-	loc, _ := time.LoadLocation("America/New_York")
-	now := time.Now().In(loc)
-	return now
-}
+// func GetESTTime() time.Time {
+// 	loc, _ := time.LoadLocation("America/New_York")
+// 	now := time.Now().In(loc)
+// 	return now
+// }
 
 /** IsMarketOpen
  * * Checks if the market is open
  */
 func IsMarketOpen() bool {
-	loc, _ := time.LoadLocation("America/New_York")
-	currentTime := GetESTTime()
-	openTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 9, 30, 0, 0, loc)
-	closeTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 16, 00, 0, 0, loc)
-	earlyClose := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 13, 00, 0, 0, loc)
+	currentTime := time.Now().UTC()
+	openTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 14, 30, 0, 0, time.UTC)
+	closeTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 21, 00, 0, 0, time.UTC)
+	earlyClose := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 18, 00, 0, 0, time.UTC)
 	dayOfWeek := currentTime.Weekday()
 
 	// Check Holidays

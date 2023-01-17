@@ -81,13 +81,6 @@ isHoliday := stocks.IsHoliday()
 isEarlyClose := stocks.IsEarlyClose()
 ```
 
-### Get EST Time
-
-```go
-//Returns `time.Time`
-estTime := stocks.GetESTTime()
-```
-
 ## 💻 Dependencies
 
 - [`Go`](https://go.dev/)
