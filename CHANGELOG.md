@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning].
 
 ### Removed
 
+- GetESTTime()
+
 ### Fixed
 
 ### Security
