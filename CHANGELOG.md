@@ -9,6 +9,23 @@ and this project adheres to [Semantic Versioning].
 
 - Will list future updates here
 
+## [0.0.3] - 2023-01-17
+
+### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+- Fixed README.md
+- Fixed Timezone
+
+### Security
+
 ## [0.0.2] - 2023-01-16
 
 ### Added

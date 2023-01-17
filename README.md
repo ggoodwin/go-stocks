@@ -81,15 +81,6 @@ isHoliday := stocks.IsHoliday()
 isEarlyClose := stocks.IsEarlyClose()
 ```
 
-### Is the Stock Market Open?
-
-Add this to your `.go` file
-
-```go
-//Returns `bool`
-isOpen := stocks.IsMarketOpen()
-```
-
 ### Get EST Time
 
 ```go

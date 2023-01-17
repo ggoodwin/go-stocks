@@ -15,16 +15,17 @@ func GetESTTime() time.Time {
  * * Checks if the market is open
  */
 func IsMarketOpen() bool {
+	loc, _ := time.LoadLocation("America/New_York")
 	currentTime := GetESTTime()
-	openTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 9, 30, 0, 0, time.UTC)
-	closeTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 16, 00, 0, 0, time.UTC)
-	earlyClose := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 13, 00, 0, 0, time.UTC)
+	openTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 9, 30, 0, 0, loc)
+	closeTime := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 16, 00, 0, 0, loc)
+	earlyClose := time.Date(currentTime.Year(), currentTime.Month(), currentTime.Day(), 13, 00, 0, 0, loc)
 	dayOfWeek := currentTime.Weekday()
 
 	// Check Holidays
-	if IsHoliday() {
-		return false
-	}
+	// if IsHoliday() {
+	// 	return false
+	// }
 
 	// Check Early Close Days
 	if IsEarlyClose() {
