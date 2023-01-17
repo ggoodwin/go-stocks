@@ -47,7 +47,7 @@ func IsEarlyClose() bool {
  * * Checks if it is a market holiday
  */
 func IsHoliday() bool {
-	currentDate := GetESTTime()
+	currentDate := time.Now().UTC()
 
 	/**
 	 * * Same Day Holidays
