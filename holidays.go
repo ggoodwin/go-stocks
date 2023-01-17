@@ -8,7 +8,7 @@ import (
  * * Checks if the market is closing early
  */
 func IsEarlyClose() bool {
-	currentDate := GetESTTime()
+	currentDate := time.Now().UTC()
 
 	/**
 	 * * Same Day Holidays
