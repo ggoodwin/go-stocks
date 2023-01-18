@@ -9,6 +9,28 @@ and this project adheres to [Semantic Versioning].
 
 - Will list future updates here
 
+## [0.0.5] - 2023-01-18
+
+### Added
+
+- Moved constants to a different file `consts.go`
+- Moved structs to a different file `structs.go`
+
+### Changed
+
+- Changed `README.md` to reflect removals and added struct details
+- Changed `CHANGELOG.md` to specify changes
+
+### Deprecated
+
+### Removed
+
+- Removed Time and Holiday as they have been moved to a different library
+
+### Fixed
+
+### Security
+
 ## [0.0.4] - 2023-01-17
 
 ### Added
@@ -83,6 +105,9 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[unreleased]: https://github.com/octolibs/stocks/compare/v0.0.1...MAIN
+[unreleased]: https://github.com/octolibs/stocks/compare/v0.0.5...MAIN
+[0.0.5]: https://github.com/octolibs/stocks/compare/v0.0.4...v0.0.5
+[0.0.4]: https://github.com/octolibs/stocks/compare/v0.0.3...v0.0.4
+[0.0.3]: https://github.com/octolibs/stocks/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/octolibs/stocks/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/octolibs/stocks/releases/tag/v0.0.1
