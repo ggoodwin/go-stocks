@@ -9,6 +9,26 @@ and this project adheres to [Semantic Versioning].
 
 - Will list future updates here
 
+## [1.0.0] - 2023-01-18
+
+### Added
+
+- Added better commenting
+
+### Changed
+
+- Changed `CHANGELOG.md` to reflect changes
+
+### Deprecated
+
+### Removed
+
+- Unnecessary structs from docs
+
+### Fixed
+
+### Security
+
 ## [0.0.6] - 2023-01-18
 
 ### Added
@@ -125,7 +145,8 @@ and this project adheres to [Semantic Versioning].
 
 <!-- Versions -->
 [unreleased]: https://github.com/octolibs/stocks/compare/v0.0.6...MAIN
-[0.0.5]: https://github.com/octolibs/stocks/compare/v0.0.5...v0.0.6
+[1.0.0]: https://github.com/octolibs/stocks/compare/v0.0.6...v1.0.0
+[0.0.6]: https://github.com/octolibs/stocks/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/octolibs/stocks/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/octolibs/stocks/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/octolibs/stocks/compare/v0.0.2...v0.0.3

@@ -7,8 +7,17 @@ import (
 	"strconv"
 )
 
-/** GetDetails
- * * returns the base summary of a ticker from Yahoo Finance API
+/**SECTION - Queries
+ * * This section contains all the queries used in the program
+ * * The queries are used to retrieve data from the Yahoo Finance API
+ */
+
+/**ANCHOR GetDetails
+ * @param ticker string
+ * @return *Result
+ * * @desc returns the base summary of a ticker from Yahoo Finance API
+ * @note returns nil if the ticker is not found
+ * @note returns nil if there is an error
  */
 func GetFullDetails(ticker string) *Result {
 	res, err := http.Get(fmt.Sprintf(yahooURL, ticker))
@@ -16,7 +25,7 @@ func GetFullDetails(ticker string) *Result {
 		println(err)
 		return nil
 	}
-	var out TLR
+	var out tLR
 	d := json.NewDecoder(res.Body)
 	d.Decode(&out)
 	if err != nil || len(out.QuoteResponse.Result) == 0 {
@@ -28,8 +37,15 @@ func GetFullDetails(ticker string) *Result {
 	return &out.QuoteResponse.Result[0]
 }
 
-/** GetPriceAndPercentage
-* * retrieves the current trading price of a ticker from Yahoo
+/**ANCHOR GetPriceAndPercentage
+ * @param ticker string
+ * @return string, string, string
+ * * @desc returns the current price and percentage of a ticker from Yahoo Finance API
+ * @note returns empty strings if the ticker is not found
+ * @note returns empty strings if there is an error
+ * @note returns the price of the stock as a string
+ * @note returns the percentage movement of the stock as a string
+ * @note returns the direction of movement of the stock as a string
  */
 func GetPriceAndPercentage(ticker string) (string, string, string) {
 	det := GetFullDetails(ticker)
@@ -51,3 +67,5 @@ func GetPriceAndPercentage(ticker string) (string, string, string) {
 
 	return "$" + trimmedPrice, trimmedPercent + "%", direction
 }
+
+//!SECTION

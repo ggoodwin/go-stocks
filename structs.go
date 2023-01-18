@@ -1,14 +1,20 @@
 package nyse_stocks
 
-/** TLR
+/**SECTION - Structs
+ * * This section contains all the structs used in the program
+ * * The structs are used to unmarshal the json response from the Yahoo Finance API
+ * * The structs are also used to marshal the json response to the client
+ */
+
+/**ANCHOR tLR
  * * is the Top level json result
  */
-type TLR struct {
-	QuoteResponse QuoteResponse `json:"quoteResponse"`
+type tLR struct {
+	QuoteResponse quoteResponse `json:"quoteResponse"`
 }
 
-/** Result
- * * full results of json response
+/**ANCHOR Result
+ * * is the result of the json response from the Yahoo Finance API
  */
 type Result struct {
 	Symbol                            string  `json:"symbol"`
@@ -62,10 +68,15 @@ type Result struct {
 	MarketState                       string  `json:"marketState"`
 }
 
-/** QuoteResponse
+/**ANCHOR quoteResponse
  * * is the top level json element from Yahoo Finance API
+ * * It contains the result and error elements
+ * * The result element is an array of Result structs
+ * * The error element is an interface{} because it can be either a string or an int
  */
-type QuoteResponse struct {
+type quoteResponse struct {
 	Result []Result    `json:"result"`
 	Error  interface{} `json:"error"`
 }
+
+//!SECTION
