@@ -1,4 +1,4 @@
-package stocks
+package nyse_stocks
 
 /** TLR
  * * is the Top level json result

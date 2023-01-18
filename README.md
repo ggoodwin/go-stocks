@@ -1,9 +1,9 @@
 <div align="center">
-	<h1><img alt="Stocks logo" src="https://github.com/octolibs/stocks/blob/main/stock.png" height="300" /><br />
-		Go Stock Exchange Library
+	<h1><img alt="nyse-stocks logo" src="https://github.com/octolibs/nyse-stocks/blob/main/stock.png" height="300" /><br />
+		New York Stock Exchange (NYSE) Go Library
 	</h1>
 
-[![Go Reference](https://pkg.go.dev/badge/octolibs/stocks.svg)](https://pkg.go.dev/github.com/octolibs/stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/octolibs/stocks)](https://go.dev/) [![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/stocks)](https://goreportcard.com/report/github.com/octolibs/stocks) [![CodeFactor](https://www.codefactor.io/repository/github/octolibs/stocks/badge)](https://www.codefactor.io/repository/github/octolibs/stocks) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/octolibs/stocks/.github/workflows/go.yml)](https://github.com/octolibs/stocks/blob/main/.github/workflows/go.yml) ![Size](https://img.shields.io/github/languages/code-size/octolibs/stocks) [![Last Commit](https://img.shields.io/github/last-commit/octolibs/stocks)](https://github.com/octolibs/stocks/commits/main) [![License](https://img.shields.io/github/license/octolibs/stocks)](https://github.com/octolibs/stocks/blob/main/LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/octolibs/nyse-stocks.svg)](https://pkg.go.dev/github.com/octolibs/nyse-stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/octolibs/nyse-stocks)](https://go.dev/) [![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/nyse-stocks)](https://goreportcard.com/report/github.com/octolibs/nyse-stocks) [![CodeFactor](https://www.codefactor.io/repository/github/octolibs/nyse-stocks/badge)](https://www.codefactor.io/repository/github/octolibs/nyse-stocks) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/octolibs/nyse-stocks/.github/workflows/go.yml)](https://github.com/octolibs/nyse-stocks/blob/main/.github/workflows/go.yml) ![Size](https://img.shields.io/github/languages/code-size/octolibs/nyse-stocks) [![Last Commit](https://img.shields.io/github/last-commit/octolibs/nyse-stocks)](https://github.com/octolibs/nyse-stocks/commits/main) [![License](https://img.shields.io/github/license/octolibs/nyse-stocks)](https://github.com/octolibs/nyse-stocks/blob/main/LICENSE)
 
 </div>
 <hr/>
@@ -31,7 +31,7 @@ If you don't have `Go` installed, you can download it from [here](https://go.dev
 Run the following command in the `console`, in the `project directory`, to install the library with `go get`
 
 ```plain
-go get github.com/octolibs/stocks
+go get github.com/octolibs/nyse-stocks
 ```
 
 ### Importing
@@ -39,7 +39,7 @@ go get github.com/octolibs/stocks
 Add the import to your `.go` file
 
 ```go
-import "github.com/octolibs/stocks"
+import "github.com/octolibs/nyse-stocks"
 ```
 
 ## 💰 Usage
@@ -51,7 +51,7 @@ Add this to your `.go` file
 ```go
 // Parameter: Stock Symbol
 // Returns: strings ex: `$123.45`, `1.23%`, `↑`
-price, percent, direction := stocks.GetPriceAndPercentage("AAPL")
+price, percent, direction := nyse_stocks.GetPriceAndPercentage("AAPL")
 ```
 
 ### Get full stock details
@@ -59,7 +59,7 @@ price, percent, direction := stocks.GetPriceAndPercentage("AAPL")
 ```go
 // Parameter: Stock Symbol
 // Returns `Result` struct
-stock := stocks.GetFullDetails("AAPL")
+stock := nyse_stocks.GetFullDetails("AAPL")
 ```
 
 ### Result struct
@@ -130,8 +130,8 @@ request.
 
 ## ⚖️ License
 
-This project is under the MIT License. See the [LICENSE](https://github.com/octolibs/stocks/blob/main/LICENSE) file for the full license text.
+This project is under the MIT License. See the [LICENSE](https://github.com/octolibs/nyse-stocks/blob/main/LICENSE) file for the full license text.
 
 ## 📜 Changes
 
-Check out our [CHANGELOG](https://github.com/octolibs/stocks/blob/main/CHANGELOG.md)
+Check out our [CHANGELOG](https://github.com/octolibs/nyse-stocks/blob/main/CHANGELOG.md)

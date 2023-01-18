@@ -9,6 +9,25 @@ and this project adheres to [Semantic Versioning].
 
 - Will list future updates here
 
+## [0.0.6] - 2023-01-18
+
+### Added
+
+### Changed
+
+- Changed `README.md` to reflect changes
+- Changed `CHANGELOG.md` to reflect changes
+- Change product name to `nyse-stocks`
+- Change slug to `nyse_stocks`
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
 ## [0.0.5] - 2023-01-18
 
 ### Added
@@ -105,7 +124,8 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[unreleased]: https://github.com/octolibs/stocks/compare/v0.0.5...MAIN
+[unreleased]: https://github.com/octolibs/stocks/compare/v0.0.6...MAIN
+[0.0.5]: https://github.com/octolibs/stocks/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/octolibs/stocks/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/octolibs/stocks/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/octolibs/stocks/compare/v0.0.2...v0.0.3

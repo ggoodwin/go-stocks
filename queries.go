@@ -1,4 +1,4 @@
-package stocks
+package nyse_stocks
 
 import (
 	"encoding/json"

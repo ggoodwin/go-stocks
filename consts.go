@@ -1,4 +1,4 @@
-package stocks
+package nyse_stocks
 
 const (
 	// YahooURL = Yahoo Finance
