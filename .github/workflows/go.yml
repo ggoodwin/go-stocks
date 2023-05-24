@@ -5,33 +5,35 @@ name: Go
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.19
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19
 
-    - name: Code Checks
-      run: go vet .
+      - name: Code Checks
+        run: go vet .
 
-    - name: Static Checks
-      uses: dominikh/staticcheck-action@v1.2.0
-      with:
-        version: "2022.1.1"
-        run: staticcheck .
+      - name: Static Checks
+        uses: dominikh/staticcheck-action@v1.2.0
+        with:
+          version: "2022.1.1"
+          run: staticcheck .
 
-    - name: Build
-      run: go build plugin
+      - name: Build
+        run: go build plugin
 
-    - name: Test
-      run: go test plugin
+      - name: Test
+        run: go test plugin
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
