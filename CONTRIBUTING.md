@@ -35,7 +35,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 This project and everyone participating in it is governed by the [CODE-OF-CONDUCT].
 By participating, you are expected to uphold this code. Please report unacceptable behavior
-to [greg@goodwin.id].
+to my [EMAIL] or [TELEGRAM].
 
 ## I Have a Question
 
@@ -76,7 +76,7 @@ A good bug report shouldn't leave others needing to follow up for more informati
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to [greg@goodwin.id].
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by [EMAIL] or [TELEGRAM].
 
 I use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
