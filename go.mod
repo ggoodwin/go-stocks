@@ -1,3 +1,3 @@
-module github.com/octolibs/nyse-stocks
+module github.com/ggoodwin/go-nyse-stocks
 
 go 1.19
