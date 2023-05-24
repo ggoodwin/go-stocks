@@ -1,5 +1,5 @@
 <div align="center">
-	<h1><img alt="go-nyse-stocks logo" src="https://github.com/ggoodwin/go-nyse-stocks/blob/main/stock.png" height="300" /><br />
+	<h1><img alt="go-nyse-stocks logo" src="https://github.com/ggoodwin/go-nyse-stocks/blob/master/stock.png" height="300" /><br />
 		New York Stock Exchange (NYSE) Go Library
 	</h1>
 
