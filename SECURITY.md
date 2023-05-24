@@ -8,10 +8,15 @@
 
 ## Reporting a Vulnerability
 
-### Please Email Me
+### Please Email Me or Message me on Telegram
 
-[greg@goodwin.id](mailto:greg@goodwin.id)
+- [EMAIL]
+- [TELEGRAM]
 
 #### I will provide some form of compensation based on the severity and honesty of anyone who emails me regarding a security vulnerability*
 
 <sub><sup>* Please note this is an open source project run by a single person, I am not going to be able to provide a massive reward.</sup></sub>
+
+<!-- Links -->
+[TELEGRAM]: https://t.me/MessageGreg
+[EMAIL]: mailto:greg@goodwin.id
