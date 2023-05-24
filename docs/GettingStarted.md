@@ -1,21 +1,96 @@
-package nyse_stocks
+# Getting Started
 
-/**SECTION - Structs
- * * This section contains all the structs used in the program
- * * The structs are used to unmarshal the json response from the Yahoo Finance API
- * * The structs are also used to marshal the json response to the client
- */
+This page is dedicated to helping you get started with go-nyse-stocks.
+Once you've done that please don't forget to submit it to the
+[Awesome go-nyse-stocks] list :).
 
-/**ANCHOR tLR
- * * is the Top level json result
- */
-type tLR struct {
-	QuoteResponse quoteResponse `json:"quoteResponse"`
-}
+**First, lets cover a few topics so you can make the best choices on how to
+move forward from here.**
 
-/**ANCHOR Result
- * * is the result of the json response from the Yahoo Finance API
- */
+## Requirements
+
+go-nyse-stocks requires Go version 1.19 or higher.  It has been tested to compile and
+run successfully on Debian Linux 8, FreeBSD 10, and Windows 7.  It is expected
+that it should work anywhere Go 1.19 or higher works. If you run into problems
+please let me know :).
+
+You must already have a working Go environment setup to use go-nyse-stocks.  If you
+are new to Go and have not yet installed and tested it on your computer then
+please visit the [Go Install Page] first then I highly
+recommend you walk though [A Tour of Go] to
+help get your familiar with the Go language.  Also checkout the relevant Go plugin
+for your editor &mdash; they are hugely helpful when developing Go code.
+
+* Visual Studio &mdash; [vscode-go]
+* Vim &mdash; [vim-go]
+* Sublime &mdash; [GoSublime]
+
+## Install go-nyse-stocks
+
+Like any other Go package the fist step is to `go get` the package.  This will
+always pull the latest tagged release from the master branch. Then run
+`go install` to compile and install the libraries on your system.
+
+### Windows
+
+Simply run the following command in a command prompt or powershell instance to download, compile, and install the package.
+
+Make sure you are in your project's directory before running the command.
+
+```plain
+go get github.com/ggoodwin/go-nyse-stocks
+```
+
+### Linux/BSD/MacOS
+
+Run go get to download the package to your GOPATH/src folder.
+
+```sh
+go get github.com/ggoodwin/go-nyse-stocks
+```
+
+Finally, compile and install the package into the GOPATH/pkg folder. This isn't
+absolutely required but doing this will allow the Go plugin for your editor to
+provide autocomplete for all go-nyse-stocks functions.
+
+```sh
+cd $GOPATH/src/github.com/ggoodwin/go-nyse-stocks
+go install
+```
+
+## Use go-nyse-stocks
+
+### Importing
+
+Add the import to your `.go` file
+
+```go
+import "github.com/ggoodwin/go-nyse-stocks"
+```
+
+### Commands
+
+#### Stock Price and Percentage Change
+
+Add this to your `.go` file
+
+```go
+// Parameter: Stock Symbol
+// Returns: strings ex: `$123.45`, `1.23%`, `↑`
+price, percent, direction := go_nyse_stocks.GetPriceAndPercentage("AAPL")
+```
+
+#### Get full stock details
+
+```go
+// Parameter: Stock Symbol
+// Returns `Result` struct
+stock := go_nyse_stocks.GetFullDetails("AAPL")
+```
+
+### Result struct
+
+```go
 type Result struct {
 	Symbol                            string  `json:"symbol"`
 	ShortName                         string  `json:"shortName"`
@@ -67,16 +142,12 @@ type Result struct {
 	Tradeable                         bool    `json:"tradeable"`
 	MarketState                       string  `json:"marketState"`
 }
+```
 
-/**ANCHOR quoteResponse
- * * is the top level json element from Yahoo Finance API
- * * It contains the result and error elements
- * * The result element is an array of Result structs
- * * The error element is an interface{} because it can be either a string or an int
- */
-type quoteResponse struct {
-	Result []Result    `json:"result"`
-	Error  interface{} `json:"error"`
-}
-
-//!SECTION
+<!-- Links -->
+[Awesome go-nyse-stocks]: https://github.com/ggoodwin/go-nyse-stocks/wiki/Awesome-go-nyse-stocks
+[Go Install Page]: https://golang.org/doc/install
+[A Tour of Go]: https://tour.golang.org/welcome/1
+[vim-go]: https://github.com/fatih/vim-go
+[GoSublime]: https://github.com/DisposaBoy/GoSublime
+[vscode-go]: https://github.com/golang/vscode-go

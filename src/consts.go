@@ -1,4 +1,4 @@
-package nyse_stocks
+package go_nyse_stocks
 
 /**SECTION - Constants
  * * This section contains all the constants used in the program
