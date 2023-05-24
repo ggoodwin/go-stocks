@@ -8,6 +8,25 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 
 - Will list future updates here
 
+## [1.0.2] - 2023-05-24
+
+### Added
+
+- Added `docs` folder.
+- Added `img` folder to `docs` folder.
+- Added `src` folder.
+- Added `GettingStarted.md` to `docs` folder.
+- Added `index.md` to `docs` folder.
+- Added `examples` folder.
+
+### Updated
+
+- Updated `CHANGELOG.md` to reflect changes.
+- Updated `README.md` to reflect changes.
+- Moved `consts.go` to `src` folder.
+- Moved `structs.go` to `src` folder.
+- Moved and renamed `go-nyse-stocks.go` to `src` folder.
+
 ## [1.0.1] - 2023-05-23
 
 ### Updated
@@ -89,7 +108,8 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 [Semantic Versioning]: https://semver.org/
 
 <!-- Versions -->
-[unreleased]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.1...DEVELOP
+[unreleased]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.2...DEVELOP
+[1.0.2]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.6...v1.0.0
 [0.0.6]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.5...v0.0.6

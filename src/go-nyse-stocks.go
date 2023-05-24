@@ -1,4 +1,4 @@
-package nyse_stocks
+package go_nyse_stocks
 
 import (
 	"encoding/json"
