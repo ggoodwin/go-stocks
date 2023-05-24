@@ -59,7 +59,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to me at this [EMAIL] or on [TELEGRAM].
+reported to me at this [Email] or on [Telegram].
 All complaints will be reviewed and investigated promptly and fairly.
 
 I am obligated to respect the privacy and security of the reporter of any incident.
@@ -112,20 +112,20 @@ the community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [CONTRIBUTOR-COVENANT], [VERSION-2.0].
+This Code of Conduct is adapted from the [Contributor Covenant], [Version 2.0].
 
-Community Impact Guidelines were inspired by [MOZILLA]'s code of conduct
+Community Impact Guidelines were inspired by [Mozilla]'s code of conduct
 enforcement ladder.
 
 For answers to common questions about this code of conduct, see the [FAQ].
 
-[TRANSLATIONS] are available.
+[Translations] are available.
 
 <!-- Links -->
 [TELEGRAM]: https://t.me/MessageGreg
 [EMAIL]: mailto:greg@goodwin.id
 [TRANSLATIONS]: https://www.contributor-covenant.org/translations
 [FAQ]: https://www.contributor-covenant.org/faq
-[CONTRIBUTOR-COVENANT]: https://www.contributor-covenant.org
-[VERSION-2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[CONTRIBUTOR COVENANT]: https://www.contributor-covenant.org
+[VERSION 2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
 [MOZILLA]: https://github.com/mozilla/diversity
