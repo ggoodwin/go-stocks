@@ -10,7 +10,7 @@
 
 ## 🌟 How it works
 
-We use the [`Yahoo`](https://finance.yahoo.com/most-active) API to gather real-time stock data.
+We use the [Yahoo API] to gather real-time stock data.
 
 ## 📦 Installation and Usage
 
@@ -24,7 +24,7 @@ You can check by running the following command in the `console`
 go version
 ```
 
-If you don't have `Go` installed, you can download it from [here](https://go.dev/dl/).
+If you don't have `Go` installed, you can [Download Go] and install it.
 
 ### Add to your project
 
@@ -120,32 +120,35 @@ type Result struct {
 
 ## 💻 Dependencies
 
-- [`Go`](https://go.dev/)
+- [Go]
 
 ## 🙇‍♂️ Issues and Contributing
 
-If you find an issue with this library, please report the issue using our [GITHUB-ISSUES] or check out the [SECURITY] details if it is security related.
+If you find an issue with this library, please report the issue using our [Github Issues] or check out the [Security] details if it is security related.
 
-If you'd like, I welcome any contributions. Please read the [CONTRIBUTING] document then [FORK] this library and submit a [PULL-REQUEST]. Make sure to click `compare across forks` to see your fork.
+If you'd like, I welcome any contributions. Please read the [Contributing] document then [Fork] this library and submit a [Pull Request]. Make sure to click `compare across forks` to see your fork.
 
 ## ⚖️ License
 
-This project is under the MIT License. See the [LICENSE] file for the full license text.
+This project is under the MIT License. See the [License] file for the full license text.
 
 ## 📜 Changes
 
-Check out our [CHANGELOG]
+Check out our [Changelog]
 
 ## 👍🏻 Code of Conduct
 
-Please read my [CODE-OF-CONDUCT] before contributing or engaging in discussions.
+Please read my [Code of Conduct] before contributing or engaging in discussions.
 
 <!-- Links -->
 [LICENSE]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/LICENSE.md
 [CHANGELOG]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CHANGELOG.md
 [SECURITY]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/SECURITY.md
 [FORK]: https://github.com/ggoodwin/go-nyse-stocks/fork
-[PULL-REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
-[CODE-OF-CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
+[PULL REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
+[CODE OF CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
 [CONTRIBUTING]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CONTRIBUTING.md
-[GITHUB-ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
+[GITHUB ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
+[YAHOO API]: https://finance.yahoo.com/most-active
+[GO]: https://go.dev/
+[DOWNLOAD GO]: https://go.dev/dl/
