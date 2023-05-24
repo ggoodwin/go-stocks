@@ -39,7 +39,7 @@ go get github.com/ggoodwin/go-nyse-stocks
 Add the import to your `.go` file
 
 ```go
-import "github.com/ggoodwin/go-nyse-stocks"
+import nyse_stocks "github.com/ggoodwin/go-nyse-stocks"
 ```
 
 ## 💰 Usage
@@ -124,14 +124,28 @@ type Result struct {
 
 ## 🙇‍♂️ Issues and Contributing
 
-If you find an issue with this library, please report an issue. If you'd
-like, we welcome any contributions. Fork this library and submit a pull
-request.
+If you find an issue with this library, please report the issue using our [GITHUB-ISSUES] or check out the [SECURITY] details if it is security related.
+
+If you'd like, I welcome any contributions. Please read the [CONTRIBUTING] document then [FORK] this library and submit a [PULL-REQUEST]. Make sure to click `compare across forks` to see your fork.
 
 ## ⚖️ License
 
-This project is under the MIT License. See the [LICENSE](https://github.com/ggoodwin/go-nyse-stocks/blob/main/LICENSE) file for the full license text.
+This project is under the MIT License. See the [LICENSE] file for the full license text.
 
 ## 📜 Changes
 
-Check out our [CHANGELOG](https://github.com/ggoodwin/go-nyse-stocks/blob/main/CHANGELOG.md)
+Check out our [CHANGELOG]
+
+## 👍🏻 Code of Conduct
+
+Please read my [CODE-OF-CONDUCT] before contributing or engaging in discussions.
+
+<!-- Links -->
+[LICENSE]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/LICENSE.md
+[CHANGELOG]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CHANGELOG.md
+[SECURITY]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/SECURITY.md
+[FORK]: https://github.com/ggoodwin/go-nyse-stocks/fork
+[PULL-REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
+[CODE-OF-CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
+[CONTRIBUTING]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CONTRIBUTING.md
+[GITHUB-ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
