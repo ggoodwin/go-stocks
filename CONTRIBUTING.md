@@ -1,3 +1,3 @@
-# Contributing to octolibs stocks
+# Contributing to go-nyse-stocks
 
 ## Coming Soon

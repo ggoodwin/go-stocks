@@ -1,16 +1,16 @@
 <div align="center">
-	<h1><img alt="nyse-stocks logo" src="https://github.com/octolibs/nyse-stocks/blob/main/stock.png" height="300" /><br />
+	<h1><img alt="go-nyse-stocks logo" src="https://github.com/ggoodwin/go-nyse-stocks/blob/main/stock.png" height="300" /><br />
 		New York Stock Exchange (NYSE) Go Library
 	</h1>
 
-[![Go Reference](https://pkg.go.dev/badge/octolibs/nyse-stocks.svg)](https://pkg.go.dev/github.com/octolibs/nyse-stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/octolibs/nyse-stocks)](https://go.dev/) [![GoReportCard](https://goreportcard.com/badge/github.com/octolibs/nyse-stocks)](https://goreportcard.com/report/github.com/octolibs/nyse-stocks) [![CodeFactor](https://www.codefactor.io/repository/github/octolibs/nyse-stocks/badge)](https://www.codefactor.io/repository/github/octolibs/nyse-stocks) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/octolibs/nyse-stocks/.github/workflows/go.yml)](https://github.com/octolibs/nyse-stocks/blob/main/.github/workflows/go.yml) ![Size](https://img.shields.io/github/languages/code-size/octolibs/nyse-stocks) [![Last Commit](https://img.shields.io/github/last-commit/octolibs/nyse-stocks)](https://github.com/octolibs/nyse-stocks/commits/main) [![License](https://img.shields.io/github/license/octolibs/nyse-stocks)](https://github.com/octolibs/nyse-stocks/blob/main/LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/ggoodwin/go-nyse-stocks.svg)](https://pkg.go.dev/github.com/ggoodwin/go-nyse-stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/ggoodwin/go-nyse-stocks)](https://go.dev/) [![GoReportCard](https://goreportcard.com/badge/github.com/ggoodwin/go-nyse-stocks)](https://goreportcard.com/report/github.com/ggoodwin/go-nyse-stocks) [![CodeFactor](https://www.codefactor.io/repository/github/ggoodwin/go-nyse-stocks/badge)](https://www.codefactor.io/repository/github/ggoodwin/go-nyse-stocks) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ggoodwin/go-nyse-stocks/.github/workflows/go.yml)](https://github.com/ggoodwin/go-nyse-stocks/blob/main/.github/workflows/go.yml) ![Size](https://img.shields.io/github/languages/code-size/ggoodwin/go-nyse-stocks) [![Last Commit](https://img.shields.io/github/last-commit/ggoodwin/go-nyse-stocks)](https://github.com/ggoodwin/go-nyse-stocks/commits/main) [![License](https://img.shields.io/github/license/ggoodwin/go-nyse-stocks)](https://github.com/ggoodwin/go-nyse-stocks/blob/main/LICENSE)
 
 </div>
 <hr/>
 
 ## 🌟 How it works
 
-We use the [`Yahoo`](https://finance.yahoo.com/most-active) API to gather real time stock data.
+We use the [`Yahoo`](https://finance.yahoo.com/most-active) API to gather real-time stock data.
 
 ## 📦 Installation and Usage
 
@@ -31,7 +31,7 @@ If you don't have `Go` installed, you can download it from [here](https://go.dev
 Run the following command in the `console`, in the `project directory`, to install the library with `go get`
 
 ```plain
-go get github.com/octolibs/nyse-stocks
+go get github.com/ggoodwin/go-nyse-stocks
 ```
 
 ### Importing
@@ -39,7 +39,7 @@ go get github.com/octolibs/nyse-stocks
 Add the import to your `.go` file
 
 ```go
-import "github.com/octolibs/nyse-stocks"
+import "github.com/ggoodwin/go-nyse-stocks"
 ```
 
 ## 💰 Usage
@@ -130,8 +130,8 @@ request.
 
 ## ⚖️ License
 
-This project is under the MIT License. See the [LICENSE](https://github.com/octolibs/nyse-stocks/blob/main/LICENSE) file for the full license text.
+This project is under the MIT License. See the [LICENSE](https://github.com/ggoodwin/go-nyse-stocks/blob/main/LICENSE) file for the full license text.
 
 ## 📜 Changes
 
-Check out our [CHANGELOG](https://github.com/octolibs/nyse-stocks/blob/main/CHANGELOG.md)
+Check out our [CHANGELOG](https://github.com/ggoodwin/go-nyse-stocks/blob/main/CHANGELOG.md)
