@@ -10,8 +10,8 @@
 
 ### Please Email Me or Message me on Telegram
 
-- [EMAIL]
-- [TELEGRAM]
+- [Email]
+- [Telegram]
 
 #### I will provide some form of compensation based on the severity and honesty of anyone who emails me regarding a security vulnerability*
 

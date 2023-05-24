@@ -33,19 +33,19 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [CODE-OF-CONDUCT].
+This project and everyone participating in it is governed by the [Code of Conduct].
 By participating, you are expected to uphold this code. Please report unacceptable behavior
-to my [EMAIL] or [TELEGRAM].
+to my [Email] or [Telegram].
 
 ## I Have a Question
 
-> If you want to ask a question, I assume that you have read the available [DOCUMENTATION].
+> If you want to ask a question, I assume that you have read the available [Documentation].
 
-Before you ask a question, it is best to search for existing [GITHUB-ISSUES] that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [GitHub Issues] that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
-- Open an [NEW-ISSUE].
+- Open an [New Issue].
 - Provide as much context as you can about what you're running into.
 - Provide project and platform versions, depending on what seems relevant.
 
@@ -64,8 +64,8 @@ I will then take care of the issue as soon as possible.
 A good bug report shouldn't leave others needing to follow up for more information. Therefore, I ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help me fix any potential bug as fast as possible.
 
 - Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [DOCUMENTATION]. If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is already a bug report existing for your bug or error in the [BUG-TRACKER].
+- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [Documentation]. If you are looking for support, you might want to check [this section](#i-have-a-question)).
+- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is already a bug report existing for your bug or error in the [Bug Tracker].
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
 - Stack trace (Traceback)
@@ -76,11 +76,11 @@ A good bug report shouldn't leave others needing to follow up for more informati
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by [EMAIL] or [TELEGRAM].
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by [Email] or [Telegram].
 
 I use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
-- Open an [NEW-ISSUE]. (Since I can't be sure at this point whether it is a bug or not, I ask you not to talk about a bug yet and not to label the issue.)
+- Open an [New Issue]. (Since I can't be sure at this point whether it is a bug or not, I ask you not to talk about a bug yet and not to label the issue.)
 - Explain the behavior you would expect and the actual behavior.
 - Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
 - Provide the information you collected in the previous section.
@@ -98,8 +98,8 @@ This section guides you through submitting an enhancement suggestion, **includin
 #### Before Submitting an Enhancement
 
 - Make sure that you are using the latest version.
-- Read the [DOCUMENTATION] carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [GITHUB-ISSUES] search to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- Read the [Documentation] carefully and find out if the functionality is already covered, maybe by an individual configuration.
+- Perform a [GitHub Issues] search to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince me and the community that your feature is worth the time and effort. Keep in mind that I want features that will be useful to the majority of the users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library or [contributing](#your-first-code-contribution) yourself.
 
 #### How Do I Submit a Good Enhancement Suggestion?
@@ -109,12 +109,12 @@ Enhancement suggestions are tracked as [GITHUB-ISSUES].
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [LICE-CAP] to record GIFs on macOS and Windows, or [SILENT-CAST], or [BYZANZ] on Linux.
+- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [Lice Cap] to record GIFs on macOS and Windows, or [Silent Cast], or [Byzanz] on Linux.
 - **Explain why this enhancement would be useful** to most users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
 
 ### Your First Code Contribution
 
-If you'd like, I welcome any contributions. Please read the [CONTRIBUTING] document then [FORK] this library and submit a [PULL-REQUEST]. Make sure to click `compare across forks` to see your fork.
+If you'd like, I welcome any contributions. Please read the [Contributing] document then [Fork] this library and submit a [Pull Request]. Make sure to click `compare across forks` to see your fork.
 
 ### Improving The Documentation
 
@@ -130,7 +130,7 @@ All I ask is your as descriptive as possible in the description of your commit m
 
 ## Join The Project Team
 
-[EMAIL] me in advance or contact me on [TELEGRAM] and I will help get you added to the team if you know what your doing.
+[Email] me in advance or contact me on [Telegram] and I will help get you added to the team if you know what your doing.
 This will get your pull requests merged faster.
 
 ## Attribution
@@ -139,20 +139,20 @@ Not required, but if you want to include a link to this repo I would greatly app
 
 ---
 
-This guide is based on the **contributing.md**. [MAKE-YOUR-OWN]!
+This guide is based on the **contributing.md**. [Make Your Own]!
 
 <!-- Links -->
-[CODE-OF-CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
+[CODE OF CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
 [EMAIL]: mailto:greg@goodwin.id
 [DOCUMENTATION]: https://docs.greg.id/go-nyse-stocks
-[MAKE-YOUR-OWN]: https://contributing.md/
-[LICE-CAP]: https://www.cockos.com/licecap/
-[SILENT-CAST]: https://github.com/colinkeenan/silentcast
+[MAKE YOUR OWN]: https://contributing.md/
+[LICE CAP]: https://www.cockos.com/licecap/
+[SILENT CAST]: https://github.com/colinkeenan/silentcast
 [BYZANZ]: https://github.com/GNOME/byzanz
-[GITHUB-ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
-[NEW-ISSUE]: https://github.com/ggoodwin/go-nyse-stocks/issues/new
-[BUG-TRACKER]: https://github.com/ggoodwin/go-nyse-stocks/issues?q=label%3Abug
+[GITHUB ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
+[NEW ISSUE]: https://github.com/ggoodwin/go-nyse-stocks/issues/new
+[BUG TRACKER]: https://github.com/ggoodwin/go-nyse-stocks/issues?q=label%3Abug
 [CONTRIBUTING]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CONTRIBUTING.md
 [FORK]: https://github.com/ggoodwin/go-nyse-stocks/fork
-[PULL-REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
+[PULL REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
 [TELEGRAM]: https://t.me/MessageGreg
