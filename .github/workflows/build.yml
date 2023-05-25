@@ -13,7 +13,7 @@ jobs:
     env:
       CODACY_TOKEN: ${{secrets.CODACY_PROJECT_TOKEN}}
     steps:
-      - run: bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r coverage.out -l Go -t $CODACY_TOKEN
+      - run: bash <(curl -Ls https://coverage.codacy.com/get.sh) -l Go -t $CODACY_TOKEN
 
   codecov:
     runs-on: ubuntu-latest
