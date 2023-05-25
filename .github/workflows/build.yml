@@ -2,20 +2,11 @@ name: Build
 
 on:
   push:
-    branches: ["master"]
   pull_request:
-    branches: ["master"]
 
 jobs:
   build:
     uses: ggoodwin/meta/.github/workflows/build.yml@master
-
-  codacy:
-    runs-on: ubuntu-latest
-    env:
-      CODACY_TOKEN: ${{secrets.CODACY_PROJECT_TOKEN}}
-    steps:
-      - run: bash <(curl -Ls https://coverage.codacy.com/get.sh) -l Go -t $CODACY_TOKEN
 
   codecov:
     runs-on: ubuntu-latest
