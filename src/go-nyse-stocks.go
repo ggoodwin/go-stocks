@@ -12,10 +12,10 @@ import (
  * * The queries are used to retrieve data from the Yahoo Finance API
  */
 
-/**ANCHOR GetDetails
+/** ANCHOR GetDetails
  * @param ticker string
  * @return *Result
- * * @desc returns the base summary of a ticker from Yahoo Finance API
+ ** @desc returns the base summary of a ticker from Yahoo Finance API
  * @note returns nil if the ticker is not found
  * @note returns nil if there is an error
  */
