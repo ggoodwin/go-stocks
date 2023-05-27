@@ -9,7 +9,7 @@
 
 <h2>Go</h2>
 
-[![Go Reference](https://pkg.go.dev/badge/ggoodwin/go-nyse-stocks.svg)](https://pkg.go.dev/github.com/ggoodwin/go-nyse-stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/ggoodwin/go-nyse-stocks)](https://go.dev/)
+[![Go Reference](https://pkg.go.dev/badge/ggoodwin/go-nyse-stocks.svg)](https://pkg.go.dev/github.com/ggoodwin/go-nyse-stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/ggoodwin/go-nyse-stocks)](https://go.dev/doc/go1.19)
 
 <h2>Repo Info</h2>
 
@@ -21,7 +21,7 @@
 
 <h2>Actions</h2>
 
-[![Go](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/go.yml/badge.svg)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/go.yml) [![lint](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/lint.yml/badge.svg)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/lint.yml) [![CodeQL](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/github-code-scanning/codeql) [![Snyk](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/snyk.yml/badge.svg)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/snyk.yml) [![Vulnerabilities](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/vulnerabilities.yml/badge.svg)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/vulnerabilities.yml) [![Coveralls](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/coveralls.yml/badge.svg)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/coveralls.yml)
+[![Go](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/go.yml) [![lint](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/lint.yml) [![CodeQL](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/github-code-scanning/codeql) [![Snyk](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/snyk.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/snyk.yml) [![Vulnerabilities](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/vulnerabilities.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/vulnerabilities.yml) [![Coveralls](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/coveralls.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/coveralls.yml)
 
 </div>
 <hr/>
