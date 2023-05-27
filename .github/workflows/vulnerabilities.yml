@@ -4,6 +4,8 @@ on:
   push:
   pull_request:
 
+permissions: read-all
+
 jobs:
   govulncheck:
     runs-on: ubuntu-latest
