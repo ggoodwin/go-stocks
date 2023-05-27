@@ -7,7 +7,7 @@
 *.dll
 *.so
 *.dylib
-*.txt
+# *.txt
 
 # Test binary, built with `go test -c`
 *.test
@@ -24,3 +24,9 @@ go.work
 
 # Configs
 .vscode
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+/.env.vault

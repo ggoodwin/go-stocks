@@ -1,0 +1,3 @@
+txt_processors = [
+  GoProcessor()
+]
