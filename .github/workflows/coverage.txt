@@ -1,3 +1,0 @@
-txt_processors = [
-  GoProcessor()
-]
