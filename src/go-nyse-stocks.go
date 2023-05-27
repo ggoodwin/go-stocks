@@ -27,7 +27,7 @@ func GetFullDetails(ticker string) *Result {
 	}
 	var out tLR
 	d := json.NewDecoder(res.Body)
-	d.Decode(&out)
+	err = d.Decode(&out)
 	if err != nil || len(out.QuoteResponse.Result) == 0 {
 		if err != nil {
 			println(err)
