@@ -2,7 +2,11 @@ name: Coveralls
 
 on:
   push:
+    branches: ["master"]
   pull_request:
+    branches: ["master"]
+
+permissions: read-all
 
 jobs:
   build:
