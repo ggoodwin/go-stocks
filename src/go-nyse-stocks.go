@@ -1,3 +1,5 @@
+// `package stocks` is defining a Go package named "stocks" that contains functions for retrieving and
+// processing stock data from Yahoo Finance API.
 package stocks
 
 import (
@@ -7,7 +9,7 @@ import (
 	"strconv"
 )
 
-// The function retrieves full details of a stock using its ticker symbol from Yahoo Finance API and
+// GetFullDetails retrieves full details of a stock using its ticker symbol from Yahoo Finance API and
 // returns the result.
 func GetFullDetails(ticker string) *Result {
 	res, err := http.Get(fmt.Sprintf(yahooURL, ticker))
@@ -27,7 +29,7 @@ func GetFullDetails(ticker string) *Result {
 	return &out.QuoteResponse.Result[0]
 }
 
-// The function returns the price, percentage change, and direction of a given stock ticker.
+// GetPriceAndPercentage returns the price, percentage change, and direction of a given stock ticker.
 func GetPriceAndPercentage(ticker string) (string, string, string) {
 	det := GetFullDetails(ticker)
 	if det == nil {

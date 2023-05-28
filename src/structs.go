@@ -1,6 +1,8 @@
+// `package stocks` is defining a Go package named "stocks" which contains various types and structs
+// related to financial data for stocks and cryptocurrencies.
 package stocks
 
-// The type tLR contains a field called QuoteResponse of type quoteResponse with a JSON tag.
+// tLR type contains a field called QuoteResponse of type quoteResponse with a JSON tag.
 // @property {quoteResponse} QuoteResponse - `QuoteResponse` is a struct type that contains information
 // related to a stock quote response. It has a single field `quoteResponse` of type `quoteResponse`.
 // The `json:"quoteResponse"` tag is used to specify the name of the field when encoding or decoding
@@ -9,7 +11,7 @@ type tLR struct {
 	QuoteResponse quoteResponse `json:"quoteResponse"`
 }
 
-// The above type defines a struct for storing financial data related to a stock or cryptocurrency.
+// Result type defines a struct for storing financial data related to a stock or cryptocurrency.
 // @property {string} Symbol - The stock symbol or ticker symbol of the company.
 // @property {string} ShortName - The short name or abbreviation of the company or asset being traded.
 // @property {string} QuoteSourceName - The name of the source providing the quote data for the
@@ -150,7 +152,7 @@ type Result struct {
 	MarketState                       string  `json:"marketState"`
 }
 
-// The quoteResponse type contains a list of Result objects and an optional error field.
+// quoteResponse type contains a list of Result objects and an optional error field.
 // @property {[]Result} Result - Result is a slice of Result structs that contain the response data for
 // a quote request.
 // @property Error - The "Error" property is an interface{} type which can hold any type of value,
