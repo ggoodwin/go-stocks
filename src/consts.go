@@ -1,4 +1,4 @@
-// `package stocks` is defining a Go package named `stocks`. This package can contain functions,
+// Package stocks is defining a Go package named `stocks`. This package can contain functions,
 // variables, and other Go code that can be used to work with stocks and financial data.
 package stocks
 

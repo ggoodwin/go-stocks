@@ -1,4 +1,4 @@
-// `package stocks` is defining a Go package named "stocks" that contains functions for retrieving and
+// Package stocks is defining a Go package named "stocks" that contains functions for retrieving and
 // processing stock data from Yahoo Finance API.
 package stocks
 
