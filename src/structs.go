@@ -1,4 +1,4 @@
-// `package stocks` is defining a Go package named "stocks" which contains various types and structs
+// Package stocks is defining a Go package named "stocks" which contains various types and structs
 // related to financial data for stocks and cryptocurrencies.
 package stocks
 
