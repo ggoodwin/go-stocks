@@ -1,5 +1,5 @@
 <div align="center">
-	<h1><img alt="stocks-go logo" src="https://github.com/ggoodwin/stocks-go/blob/master/myse.png" height="300" /><br />
+	<h1><img alt="stocks-go logo" src="https://github.com/ggoodwin/stocks-go/blob/master/nyse.png" height="300" /><br />
 		Stock Info Go Library
 	</h1>
 
@@ -57,7 +57,7 @@ go get github.com/ggoodwin/stocks-go
 Add the import to your `.go` file
 
 ```go
-import "github.com/ggoodwin/stocks-go"
+import stocks "github.com/ggoodwin/stocks-go"
 ```
 
 ## 💰 Usage
