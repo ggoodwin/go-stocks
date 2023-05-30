@@ -1,3 +1,3 @@
-module github.com/ggoodwin/go-nyse-stocks
+module github.com/ggoodwin/stocks-go
 
 go 1.19
