@@ -1,6 +1,6 @@
 <div align="center">
-	<h1><img alt="go-nyse-stocks logo" src="https://github.com/ggoodwin/go-nyse-stocks/blob/master/stock.png" height="300" /><br />
-		New York Stock Exchange (NYSE) Go Library
+	<h1><img alt="stocks-go logo" src="https://github.com/ggoodwin/stocks-go/blob/master/myse.png" height="300" /><br />
+		Stock Info Go Library
 	</h1>
 
 <h2>Discord</h2>
@@ -9,19 +9,19 @@
 
 <h2>Go</h2>
 
-[![Go Reference](https://pkg.go.dev/badge/ggoodwin/go-nyse-stocks.svg)](https://pkg.go.dev/github.com/ggoodwin/go-nyse-stocks) [![Go Version](https://img.shields.io/github/go-mod/go-version/ggoodwin/go-nyse-stocks)](https://go.dev/doc/go1.19)
+[![Go Reference](https://pkg.go.dev/badge/ggoodwin/stocks-go.svg)](https://pkg.go.dev/github.com/ggoodwin/stocks-go) [![Go Version](https://img.shields.io/github/go-mod/go-version/ggoodwin/stocks-go)](https://go.dev/doc/go1.19)
 
 <h2>Repo Info</h2>
 
-![Size](https://img.shields.io/github/languages/code-size/ggoodwin/go-nyse-stocks) [![Last Commit](https://img.shields.io/github/last-commit/ggoodwin/go-nyse-stocks)](https://github.com/ggoodwin/go-nyse-stocks/commits/master) [![License](https://img.shields.io/github/license/ggoodwin/go-nyse-stocks)](https://github.com/ggoodwin/go-nyse-stocks/blob/master/LICENSE.md)
+![Size](https://img.shields.io/github/languages/code-size/ggoodwin/stocks-go) [![Last Commit](https://img.shields.io/github/last-commit/ggoodwin/stocks-go)](https://github.com/ggoodwin/stocks-go/commits/master) [![License](https://img.shields.io/github/license/ggoodwin/stocks-go)](https://github.com/ggoodwin/stocks-go/blob/master/LICENSE.md)
 
 <h2>Code Reports</h2>
 
-[![GoReportCard](https://goreportcard.com/badge/github.com/ggoodwin/go-nyse-stocks)](https://goreportcard.com/report/github.com/ggoodwin/go-nyse-stocks) [![CodeFactor](https://www.codefactor.io/repository/github/ggoodwin/go-nyse-stocks/badge)](https://www.codefactor.io/repository/github/ggoodwin/go-nyse-stocks) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/17f51d3e54264211b19220ce470783ae)](https://app.codacy.com/gh/ggoodwin/go-nyse-stocks/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Coverage Status](https://coveralls.io/repos/github/ggoodwin/go-nyse-stocks/badge.svg?branch=master)](https://coveralls.io/github/ggoodwin/go-nyse-stocks?branch=master)
+[![GoReportCard](https://goreportcard.com/badge/github.com/ggoodwin/stocks-go)](https://goreportcard.com/report/github.com/ggoodwin/stocks-go) [![CodeFactor](https://www.codefactor.io/repository/github/ggoodwin/stocks-go/badge)](https://www.codefactor.io/repository/github/ggoodwin/stocks-go) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/17f51d3e54264211b19220ce470783ae)](https://app.codacy.com/gh/ggoodwin/stocks-go/dashboard) [![Coverage Status](https://coveralls.io/repos/github/ggoodwin/stocks-go/badge.svg?branch=master)](https://coveralls.io/github/ggoodwin/stocks-go?branch=master)
 
 <h2>Actions</h2>
 
-[![Go](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/go.yml) [![lint](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/lint.yml) [![CodeQL](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/github-code-scanning/codeql) [![Vulnerabilities](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/vulnerabilities.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/vulnerabilities.yml) [![Coveralls](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/coveralls.yml/badge.svg?branch=master)](https://github.com/ggoodwin/go-nyse-stocks/actions/workflows/coveralls.yml)
+[![Go](https://github.com/ggoodwin/stocks-go/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/ggoodwin/stocks-go/actions/workflows/go.yml) [![lint](https://github.com/ggoodwin/stocks-go/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/ggoodwin/stocks-go/actions/workflows/lint.yml) [![CodeQL](https://github.com/ggoodwin/stocks-go/actions/workflows/github-code-scanning/codeql/badge.svg?branch=master)](https://github.com/ggoodwin/stocks-go/actions/workflows/github-code-scanning/codeql) [![Vulnerabilities](https://github.com/ggoodwin/stocks-go/actions/workflows/vulnerabilities.yml/badge.svg?branch=master)](https://github.com/ggoodwin/stocks-go/actions/workflows/vulnerabilities.yml) [![Coveralls](https://github.com/ggoodwin/stocks-go/actions/workflows/coveralls.yml/badge.svg?branch=master)](https://github.com/ggoodwin/stocks-go/actions/workflows/coveralls.yml)
 
 </div>
 <hr/>
@@ -49,7 +49,7 @@ If you don't have `Go` installed, you can [Download Go] and install it.
 Run the following command in the `console`, in the `project directory`, to install the library with `go get`
 
 ```plain
-go get github.com/ggoodwin/go-nyse-stocks
+go get github.com/ggoodwin/stocks-go
 ```
 
 ### Importing
@@ -57,7 +57,7 @@ go get github.com/ggoodwin/go-nyse-stocks
 Add the import to your `.go` file
 
 ```go
-import "github.com/ggoodwin/go-nyse-stocks"
+import "github.com/ggoodwin/stocks-go"
 ```
 
 ## 💰 Usage
@@ -69,7 +69,7 @@ Add this to your `.go` file
 ```go
 // Parameter: Stock Symbol
 // Returns: strings ex: `$123.45`, `1.23%`, `↑`
-price, percent, direction := go_nyse_stocks.GetPriceAndPercentage("AAPL")
+price, percent, direction := stocks.GetPriceAndPercentage("AAPL")
 ```
 
 ### Get full stock details
@@ -77,7 +77,7 @@ price, percent, direction := go_nyse_stocks.GetPriceAndPercentage("AAPL")
 ```go
 // Parameter: Stock Symbol
 // Returns `Result` struct
-stock := go_nyse_stocks.GetFullDetails("AAPL")
+stock := stocks.GetFullDetails("AAPL")
 ```
 
 ### Result struct
@@ -159,14 +159,14 @@ Check out our [Changelog]
 Please read my [Code of Conduct] before contributing or engaging in discussions.
 
 <!-- Links -->
-[LICENSE]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/LICENSE.md
-[CHANGELOG]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CHANGELOG.md
-[SECURITY]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/SECURITY.md
-[FORK]: https://github.com/ggoodwin/go-nyse-stocks/fork
-[PULL REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
-[CODE OF CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
-[CONTRIBUTING]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CONTRIBUTING.md
-[GITHUB ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
+[LICENSE]: https://github.com/ggoodwin/stocks-go/blob/master/LICENSE.md
+[CHANGELOG]: https://github.com/ggoodwin/stocks-go/blob/master/CHANGELOG.md
+[SECURITY]: https://github.com/ggoodwin/stocks-go/blob/master/SECURITY.md
+[FORK]: https://github.com/ggoodwin/stocks-go/fork
+[PULL REQUEST]: https://github.com/ggoodwin/stocks-go/compare
+[CODE OF CONDUCT]: https://github.com/ggoodwin/stocks-go/blob/master/CODE_OF_CONDUCT.md
+[CONTRIBUTING]: https://github.com/ggoodwin/stocks-go/blob/master/CONTRIBUTING.md
+[GITHUB ISSUES]: https://github.com/ggoodwin/stocks-go/issues
 [YAHOO API]: https://finance.yahoo.com/most-active
 [GO]: https://go.dev/
 [DOWNLOAD GO]: https://go.dev/dl/

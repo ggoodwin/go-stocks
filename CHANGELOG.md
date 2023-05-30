@@ -1,12 +1,26 @@
 # Changelog
 
-All notable changes to go-nyse-stocks are documented in this file.
+All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog], and this project adheres to [Semantic Versioning].
 
 ## [Unreleased]
 
 - Will list future updates here
+
+## [1.0.3] - 2023-05-29
+
+### Added
+
+- Added `nyse.png`
+
+### Updated
+
+- Changed name to `stocks-go`
+
+### Removed
+
+- Removed `stocks.png`
 
 ## [1.0.2] - 2023-05-24
 
@@ -25,7 +39,7 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 - Updated `README.md` to reflect changes.
 - Moved `consts.go` to `src` folder.
 - Moved `structs.go` to `src` folder.
-- Moved and renamed `go-nyse-stocks.go` to `src` folder.
+- Moved and renamed `stocks.go` to `src` folder.
 
 ## [1.0.1] - 2023-05-23
 
@@ -53,7 +67,7 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 
 - Changed `README.md` to reflect changes
 - Changed `CHANGELOG.md` to reflect changes
-- Change product name to `nyse-go-nyse-stocks`
+- Change product name to `nyse-stocks-go`
 - Change slug to `nyse_stocks`
 
 ## [0.0.5] - 2023-01-18
@@ -108,13 +122,14 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 [Semantic Versioning]: https://semver.org/
 
 <!-- Versions -->
-[unreleased]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.2...DEVELOP
-[1.0.2]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/ggoodwin/go-nyse-stocks/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.6...v1.0.0
-[0.0.6]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.5...v0.0.6
-[0.0.5]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.4...v0.0.5
-[0.0.4]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.3...v0.0.4
-[0.0.3]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.2...v0.0.3
-[0.0.2]: https://github.com/ggoodwin/go-nyse-stocks/compare/v0.0.1...v0.0.2
-[0.0.1]: https://github.com/ggoodwin/go-nyse-stocks/releases/tag/v0.0.1
+[unreleased]: https://github.com/ggoodwin/stocks-go/compare/v1.0.3...DEVELOP
+[1.0.3]: https://github.com/ggoodwin/stocks-go/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/ggoodwin/stocks-go/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/ggoodwin/stocks-go/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/ggoodwin/stocks-go/compare/v0.0.6...v1.0.0
+[0.0.6]: https://github.com/ggoodwin/stocks-go/compare/v0.0.5...v0.0.6
+[0.0.5]: https://github.com/ggoodwin/stocks-go/compare/v0.0.4...v0.0.5
+[0.0.4]: https://github.com/ggoodwin/stocks-go/compare/v0.0.3...v0.0.4
+[0.0.3]: https://github.com/ggoodwin/stocks-go/compare/v0.0.2...v0.0.3
+[0.0.2]: https://github.com/ggoodwin/stocks-go/compare/v0.0.1...v0.0.2
+[0.0.1]: https://github.com/ggoodwin/stocks-go/releases/tag/v0.0.1

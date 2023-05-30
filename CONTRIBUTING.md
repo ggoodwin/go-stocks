@@ -142,17 +142,17 @@ Not required, but if you want to include a link to this repo I would greatly app
 This guide is based on the **contributing.md**. [Make Your Own]!
 
 <!-- Links -->
-[CODE OF CONDUCT]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CODE_OF_CONDUCT.md
+[CODE OF CONDUCT]: https://github.com/ggoodwin/stocks-go/blob/master/CODE_OF_CONDUCT.md
 [EMAIL]: mailto:greg@goodwin.id
-[DOCUMENTATION]: https://docs.greg.id/go-nyse-stocks
+[DOCUMENTATION]: https://pkg.go.dev/github.com/ggoodwin/stocks-go
 [MAKE YOUR OWN]: https://contributing.md/
 [LICE CAP]: https://www.cockos.com/licecap/
 [SILENT CAST]: https://github.com/colinkeenan/silentcast
 [BYZANZ]: https://github.com/GNOME/byzanz
-[GITHUB ISSUES]: https://github.com/ggoodwin/go-nyse-stocks/issues
-[NEW ISSUE]: https://github.com/ggoodwin/go-nyse-stocks/issues/new
-[BUG TRACKER]: https://github.com/ggoodwin/go-nyse-stocks/issues?q=label%3Abug
-[CONTRIBUTING]: https://github.com/ggoodwin/go-nyse-stocks/blob/master/CONTRIBUTING.md
-[FORK]: https://github.com/ggoodwin/go-nyse-stocks/fork
-[PULL REQUEST]: https://github.com/ggoodwin/go-nyse-stocks/compare
+[GITHUB ISSUES]: https://github.com/ggoodwin/stocks-go/issues
+[NEW ISSUE]: https://github.com/ggoodwin/stocks-go/issues/new
+[BUG TRACKER]: https://github.com/ggoodwin/stocks-go/issues?q=label%3Abug
+[CONTRIBUTING]: https://github.com/ggoodwin/stocks-go/blob/master/CONTRIBUTING.md
+[FORK]: https://github.com/ggoodwin/stocks-go/fork
+[PULL REQUEST]: https://github.com/ggoodwin/stocks-go/compare
 [TELEGRAM]: https://t.me/MessageGreg
