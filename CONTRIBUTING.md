@@ -142,9 +142,8 @@ Not required, but if you want to include a link to this repo I would greatly app
 This guide is based on the **contributing.md**. [Make Your Own]!
 
 <!-- Links -->
-[CODE OF CONDUCT]: https://github.com/ggoodwin/stocks-go/blob/master/CODE_OF_CONDUCT.md
-[EMAIL]: mailto:greg@goodwin.id
-[DOCUMENTATION]: https://pkg.go.dev/github.com/ggoodwin/stocks-go
+[CODE OF CONDUCT]: https://github.com/ggoodwin/go-stocks/blob/master/CODE_OF_CONDUCT.md
+[DOCUMENTATION]: https://pkg.go.dev/github.com/ggoodwin/go-stocks
 [MAKE YOUR OWN]: https://contributing.md/
 [LICE CAP]: https://www.cockos.com/licecap/
 [SILENT CAST]: https://github.com/colinkeenan/silentcast
@@ -152,7 +151,8 @@ This guide is based on the **contributing.md**. [Make Your Own]!
 [GITHUB ISSUES]: https://github.com/ggoodwin/stocks-go/issues
 [NEW ISSUE]: https://github.com/ggoodwin/stocks-go/issues/new
 [BUG TRACKER]: https://github.com/ggoodwin/stocks-go/issues?q=label%3Abug
-[CONTRIBUTING]: https://github.com/ggoodwin/stocks-go/blob/master/CONTRIBUTING.md
-[FORK]: https://github.com/ggoodwin/stocks-go/fork
-[PULL REQUEST]: https://github.com/ggoodwin/stocks-go/compare
-[TELEGRAM]: https://t.me/MessageGreg
+[CONTRIBUTING]: https://github.com/ggoodwin/go-stocks/blob/master/CONTRIBUTING.md
+[FORK]: https://github.com/ggoodwin/go-stocks/fork
+[PULL REQUEST]: https://github.com/ggoodwin/go-stocks/compare
+[EMAIL]: mailto:gh@ggn.dev
+[TELEGRAM]: https://ggn.sh/tg

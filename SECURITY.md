@@ -18,5 +18,5 @@
 <sub><sup>* Please note this is an open source project run by a single person, I am not going to be able to provide a massive reward.</sup></sub>
 
 <!-- Links -->
-[TELEGRAM]: https://t.me/MessageGreg
-[EMAIL]: mailto:greg@goodwin.id
+[TELEGRAM]: https://ggn.sh/tg
+[EMAIL]: mailto:gh@ggn.dev

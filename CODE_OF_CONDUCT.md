@@ -122,8 +122,8 @@ For answers to common questions about this code of conduct, see the [FAQ].
 [Translations] are available.
 
 <!-- Links -->
-[TELEGRAM]: https://t.me/MessageGreg
-[EMAIL]: mailto:greg@goodwin.id
+[TELEGRAM]: https://ggn.sh/tg
+[EMAIL]: mailto:gh@ggn.dev
 [TRANSLATIONS]: https://www.contributor-covenant.org/translations
 [FAQ]: https://www.contributor-covenant.org/faq
 [CONTRIBUTOR COVENANT]: https://www.contributor-covenant.org
