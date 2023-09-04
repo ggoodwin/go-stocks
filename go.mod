@@ -1,3 +1,3 @@
-module github.com/ggoodwin/stocks-go
+module github.com/ggoodwin/go-stocks
 
 go 1.19
